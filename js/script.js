@@ -3,20 +3,20 @@ $(function () {
     "use strict";
 
     // Pre Loader 
-    var loader = document.getElementById("loader");
-    window.addEventListener("load", function () {
+    // var loader = document.getElementById("loader");
+    // window.addEventListener("load", function () {
 
-        loader.style.visibility = "hidden";
+    //     loader.style.visibility = "hidden";
 
-    });
+    // });
 
     // Menufix
 
     //    var navoff = $(".main_menu").offset().top;
-    //
+    
     //    $(window).scroll(function () {
     //        var scrolling = $(this).scrollTop();
-    //
+    
     //        if (scrolling > navoff) {
     //            $(".main_menu").addClass("menu_fix");
     //        } else {

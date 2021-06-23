@@ -22,20 +22,7 @@
 /* *.---------------------------------------------
                Pre Loader
 ------------------------------------------------*/
-#loader {
-    position: fixed;
-    z-index: 2;
-    background-color: #fff;
-    width: 100%;
-    height: 100%;
-}
 
-#loader img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
 /* 1.---------------------------------------------
                 Template default css
@@ -46,6 +33,7 @@ body {
     padding: 0;
     outline: 0;
     font-family: 'Barlow', sans-serif;
+    overflow-x: hidden;
 }
 
 img {
